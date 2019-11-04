@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import { Container } from '@material-ui/core'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,8 +25,8 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+    <Container maxWidth={960}>
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -41,7 +42,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
-    </>
+    </Container >
   )
 }
 

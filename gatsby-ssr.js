@@ -1,3 +1,6 @@
+import React from 'react'
+import { Helmet } from 'react-helmet'
+
 /**
  * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
  *
