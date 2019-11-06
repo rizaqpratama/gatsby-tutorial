@@ -5,7 +5,7 @@ import { Hero } from '../components/Hero'
 const Profile = () => {
   return (
     <Layout>
-      <Hero></Hero>
+      <Hero tagline="Hi, saya Rizaq, developer web handal"></Hero>
     </Layout>
   )
 }

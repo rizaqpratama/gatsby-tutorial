@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Hero = () => {
+export const Hero = ({ tagline }) => {
   return (
     <div>
-      This is a Hero component
+      {tagline}
     </div>
   )
 }
