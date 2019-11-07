@@ -10,12 +10,13 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
-import { Container } from '@material-ui/core'
+import { Container, CssBaseline } from '@material-ui/core'
 
 const Layout = ({ children }) => {
 
   return (
     <Container maxWidth='lg'>
+      <CssBaseline />
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
