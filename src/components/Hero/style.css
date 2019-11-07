@@ -1,0 +1,11 @@
+.hero-tagline {
+  font-size: 20pt;
+  color: blue;
+  margin-top: 50px;
+}
+.hero-container {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
