@@ -13,15 +13,6 @@ import "./layout.css"
 import { Container } from '@material-ui/core'
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
   return (
     <Container maxWidth='lg'>
