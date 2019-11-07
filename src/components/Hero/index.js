@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import { fontSize } from '@material-ui/system'
 import { HeroImage } from './styles'
 import imgSource from '../../images/1.png'
 
