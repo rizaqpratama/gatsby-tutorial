@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0;
-  background: url('../images/background.jpg') repeat-x !important;
+  /* background: url('../images/background.jpg') repeat-x !important; */
   background-size: 200px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
