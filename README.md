@@ -12,16 +12,22 @@ Kick off your project with this default boilerplate. This starter ships with the
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-*Clone*
-```shell
-git clone https://github.com/rizaqpratama/gatsby-tutorial.git
-```
-
 ## 🚀 Quick start
 
 1.  **Open Terminal.**
 
-2.  **Install Dependency.**
+2.  **Install Gatsby**
+
+    ```shell
+    npm install -g gatsby-cli
+    ```
+
+3.  **Clone Project.**
+    ```shell
+    git clone https://github.com/rizaqpratama/gatsby-tutorial.git
+    ```
+
+4.  **Install Dependency.**
 
     Navigate into your folder, then install the dependency.
 
@@ -32,10 +38,9 @@ git clone https://github.com/rizaqpratama/gatsby-tutorial.git
     
     wait until completed
 
-3.  **Start the site**
+5.  **Start the site**
     ```shell
     npm run start
     ```
 
     Your site is now running at `http://localhost:8000`!
-
