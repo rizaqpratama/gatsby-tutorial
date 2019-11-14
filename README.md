@@ -12,6 +12,11 @@ Kick off your project with this default boilerplate. This starter ships with the
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
+*Clone*
+```shell
+git clone https://github.com/rizaqpratama/gatsby-tutorial.git
+```
+
 ## 🚀 Quick start
 
 1.  **Open Terminal.**
